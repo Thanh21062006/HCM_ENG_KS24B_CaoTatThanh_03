@@ -69,7 +69,6 @@ int main(){
 				break;
 			case 5:
 				int index, value;
-				int index, value;
 				printf("Moi ban nhap vi tri muon them: ");
 				scanf("%d", &index);
 				
