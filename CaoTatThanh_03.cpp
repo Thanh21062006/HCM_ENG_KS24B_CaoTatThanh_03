@@ -45,8 +45,9 @@ int main(){
 				}
 				break;
 			case 3:{
-				int cout = 0, check = 1;
+				int cout = 0;
 				for(int i = 0; i < size;i++){
+					int check = 1;
 					if(arr[i] < 2){
 						check = 0;
 					}
