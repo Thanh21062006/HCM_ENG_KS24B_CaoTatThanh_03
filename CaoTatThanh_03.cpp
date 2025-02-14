@@ -68,12 +68,17 @@ int main(){
 				break;
 			case 5:
 				int index, value;
+				int index, value;
 				printf("Moi ban nhap vi tri muon them: ");
 				scanf("%d", &index);
 				
-				if(index < 0 && index > size){
+				if(index < 0){
 					printf("Vi tri khong hop le!\n");
 					break;
+				}
+				
+				if(index > size){
+					index = size;
 				}
 				printf("Moi ban nhap gia tri: ");
 				scanf("%d", &value);
